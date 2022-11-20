@@ -14,29 +14,32 @@ export const Top = () => {
       <div className="container">
         <div className="display-table">
           <div className="display-table-contents">
-            <div
-              className="profile-thumb"
-              style={{ backgroundImage: `url(${ProfileImage})` }}
-            ></div>
-            <p className="profile text-lg">Yuto Takenaka</p>
-            <p className="profile text-sm">Web Developer</p>
-            <ul className="social-icons">
-              <li className="icon-link">
-                <a href="https://twitter.com/eutu_ty">
-                  <FaTwitter color="white" size="2rem" />
-                </a>
-              </li>
-              <li className="icon-link">
-                <a href="https://www.instagram.com/eutu_ty/">
-                  <FaInstagram color="white" size="2rem" />
-                </a>
-              </li>
-              <li className="icon-link">
-                <a href="https://github.com/YutoTakenaka">
-                  <FaGithub color="white" size="2rem" />
-                </a>
-              </li>
-            </ul>
+            <div className="left-container">
+              <p className="greeting1">Thank you for visiting!</p>
+              <p className="greeting2">My name is...</p>
+              <p className="profile-name text-lg">Yuto Takenaka</p>
+              <p className="profile-job text-sm">Web Developer</p>
+              <ul className="social-icons">
+                <li className="icon-link">
+                  <a href="https://twitter.com/eutu_ty">
+                    <FaTwitter color="#047ff3" size="2rem" />
+                  </a>
+                </li>
+                <li className="icon-link">
+                  <a href="https://www.instagram.com/eutu_ty/">
+                    <FaInstagram color="#e31fe3" size="2rem" />
+                  </a>
+                </li>
+                <li className="icon-link">
+                  <a href="https://github.com/YutoTakenaka">
+                    <FaGithub color="#4d4d4d" size="2rem" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="right-container">
+              <img src={ProfileImage} alt="" className="profile-thumb" />
+            </div>
           </div>
         </div>
       </div>

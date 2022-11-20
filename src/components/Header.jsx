@@ -10,10 +10,10 @@ export const Header = () => {
         </a>
       </div>
       <div className="menu">
-        <a href="/">TOP</a>
-        <a href="/about">ABOUT</a>
-        <a href="/skill">SKILL</a>
-        <a href="/contact">CONTACT</a>
+        <a href="/">Top</a>
+        <a href="/about">About</a>
+        <a href="/skill">Skills</a>
+        <a href="/contact">Contact</a>
       </div>
     </div>
   );
