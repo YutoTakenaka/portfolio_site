@@ -18,8 +18,8 @@ export const Top = () => {
               className="profile-thumb"
               style={{ backgroundImage: `url(${ProfileImage})` }}
             ></div>
-            <p className="title-text text-lg">Yuto Takenaka</p>
-            <p className="title-text text-sm">Web Developer</p>
+            <p className="profile text-lg">Yuto Takenaka</p>
+            <p className="profile text-sm">Web Developer</p>
             <ul className="social-icons">
               <li className="icon-link">
                 <a href="https://twitter.com/eutu_ty">

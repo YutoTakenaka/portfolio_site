@@ -7,6 +7,7 @@ import { Top } from "./components/Top";
 function App() {
   return (
     <>
+      <Header />
       <Top />
       <Skills />
       <Contact />
