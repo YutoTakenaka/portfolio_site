@@ -1,3 +1,4 @@
+import "../styles/Skills.css";
 import { requestStates } from "../constants";
 import Circle from "react-circle";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";

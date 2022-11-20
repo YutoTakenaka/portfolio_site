@@ -1,0 +1,33 @@
+/* contact component */
+#contact {
+  padding: 128px 0;
+  clear: both;
+}
+
+.contact {
+  background: #30bfba;
+}
+
+.contact-contents {
+  color: white;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.btn {
+  font-family: "Space Mono", Arial, serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  padding: 16px 64px;
+  text-decoration: none;
+}
+
+#contact .btn {
+  height: 54px;
+  background-color: #fff;
+  color: #30bfba;
+}
