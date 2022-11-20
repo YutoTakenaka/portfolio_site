@@ -24,7 +24,8 @@ export const useSkills = () => {
           payload: { languageList: countedLanguageList },
         });
       })
-      .catch(() => {
+      .catch((err) => {
+        console.log(err);
         dispatch({ type: actionTypes.error });
       });
   };

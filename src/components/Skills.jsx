@@ -1,12 +1,15 @@
 import "../styles/Skills.css";
-import { requestStates } from "../constants";
 import Circle from "react-circle";
-import { AiOutlineLoading3Quarters } from "react-icons/ai";
-import { useSkills } from "../hooks/useSkills";
 
 export const Skills = () => {
-  const [sortedLanguageList, converseCountToPercentage, fetchRequestState] =
-    useSkills();
+  const LanguageList = [
+    { language: "React", percent: 45 },
+    { language: "TypeScript", percent: 45 },
+    { language: "JavaScript", percent: 45 },
+    { language: "Python", percent: 20 },
+    { language: "PHP", percent: 40 },
+    { language: "Ruby", percent: 60 },
+  ];
 
   return (
     <div id="skills">
@@ -15,22 +18,18 @@ export const Skills = () => {
           <p>Skills</p>
         </div>
         <div className="skills-container">
-          {fetchRequestState === requestStates.loading && (
-            <AiOutlineLoading3Quarters className="loading" />
-          )}
-          {fetchRequestState === requestStates.error && (
-            <p className="description">Error!</p>
-          )}
-          {fetchRequestState === requestStates.success &&
-            sortedLanguageList().map((item, index) => (
-              <div className="skill-item" key={index}>
-                <p className="description strong">{item.language}</p>
-                <Circle
-                  animate
-                  progress={converseCountToPercentage(item.count)}
-                />
-              </div>
-            ))}
+          {/* <AiOutlineLoading3Quarters className="loading" /> */}
+          {LanguageList.map((item, index) => (
+            <div className="skill-item" key={index}>
+              <p className="description strong">{item.language}</p>
+              <Circle
+                animate
+                progress={item.percent}
+                progressColor="#047ff3"
+                size="128px"
+              />
+            </div>
+          ))}
         </div>
       </div>
     </div>

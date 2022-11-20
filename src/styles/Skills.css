@@ -13,11 +13,12 @@
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  margin: 0 64px;
+  justify-content: space-around;
+  margin: 0 72px;
 }
 
 .skill-item {
-  margin: 0 auto;
+  margin: 16px 72px;
 }
 
 /* Loading */
