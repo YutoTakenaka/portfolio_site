@@ -15,6 +15,7 @@ body {
   font-size: 24px;
 }
 
+/* header component */
 .main-cover {
   background-color: transparent;
   background-size: cover;
@@ -38,8 +39,8 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 560px;
-  width: 560px;
+  height: 400px;
+  width: 400px;
   margin: 0 auto;
   margin-bottom: 30px;
   -webkit-border-radius: 50%;
@@ -95,4 +96,86 @@ body {
 
 .icon-link {
   position: relative;
+}
+
+/* skills component */
+#skills {
+  padding: 128px 0;
+  clear: both;
+}
+
+.heading {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 64px;
+}
+
+.skill-item {
+  margin: 0 auto;
+}
+
+/* contact component */
+#contact {
+  padding: 128px 0;
+  clear: both;
+}
+
+.contact {
+  background: #30bfba;
+}
+
+.contact-contents {
+  color: white;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.btn {
+  font-family: "Space Mono", Arial, serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  padding: 16px 64px;
+  text-decoration: none;
+}
+
+#contact .btn {
+  height: 54px;
+  background-color: #fff;
+  color: #30bfba;
+}
+
+/* Loading */
+.loading {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  -webkit-animation: spin 1.5s linear infinite;
+  -moz-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }

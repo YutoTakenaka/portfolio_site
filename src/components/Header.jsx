@@ -13,12 +13,10 @@ export const Header = () => {
       <div className="container">
         <div className="display-table">
           <div className="display-table-contents">
-            {/* カバー画像 */}
             <div
               className="profile-thumb"
               style={{ backgroundImage: `url(${ProfileImage})` }}
             ></div>
-            {/* 名前と肩書はみなさんのお名前や肩書を自由に入れてください */}
             <p className="title-text text-lg">Yuto Takenaka</p>
             <p className="title-text text-sm">Web Developer</p>
             <ul className="social-icons">
