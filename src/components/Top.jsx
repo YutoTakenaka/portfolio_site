@@ -17,7 +17,7 @@ export const Top = () => {
             <div className="left-container">
               <p className="greeting1">Thank you for visiting!</p>
               <p className="greeting2">My name is...</p>
-              <p className="profile-name text-lg">Yuto Takenaka</p>
+              <p className="profile-name text-lg">Takenaka Yuto</p>
               <p className="profile-job text-sm">Web Developer</p>
               <ul className="social-icons">
                 <li className="icon-link">
