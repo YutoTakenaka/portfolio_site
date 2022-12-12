@@ -31,3 +31,24 @@
   background-color: #fff;
   color: #30bfba;
 }
+/* icon */
+.social-icons {
+  padding: 0;
+}
+
+.social-icons li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.social-icons li a {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.icon-link {
+  position: relative;
+}

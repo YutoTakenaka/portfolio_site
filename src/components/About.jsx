@@ -5,7 +5,7 @@ export const About = () => {
     <div className="about">
       <p className="title">About</p>
       <div className="message">
-        <p className="message-title">「ITの力で人々に人生に追い風を」</p>
+        <p className="message-title">「ITの力で人々の人生に追い風を」</p>
         <p className="message-text">このような想いを掲げて仕事をしています。</p>
       </div>
       <div className="profile-container">
@@ -21,7 +21,7 @@ export const About = () => {
           </p>
           <hr />
           <p className="profile-text">
-            千葉大学法政経学部法政経学科を卒業し、新卒でIT企業に就職しました。現在はReact,TypeScriptなどを用いたモダンなフロントエンド開発をしています。私に関わったことで、私が携わったアプリを使うことで、その人の人生にいい影響を与えられると嬉しいです。
+            千葉大学法政経学部法政経学科を卒業し、新卒でIT企業に就職しました。現在はReact,TypeScriptなどを用いたモダンなフロントエンド開発をしています。私に関わったことで、私が開発に携わったアプリを使うことで、誰かの人生にいい影響を与えられると嬉しいです。
           </p>
           <p className="profile-text"></p>
         </div>
