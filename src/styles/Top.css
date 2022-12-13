@@ -1,14 +1,14 @@
 /* top component */
 .main-cover {
-  width: 100%;
+  width: 80%;
   height: 780px;
+  margin: auto;
 }
 .cover {
   opacity: 0.8;
   background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
-  position: relative;
   height: 400px;
   width: 100%;
 }
@@ -16,23 +16,25 @@
 .bg-image {
   opacity: 0.8;
   margin-top: 100px;
-  z-index: 0;
+  z-index: 1;
   width: 416px;
   height: 612px;
   transform: scale(0.7, 0.7);
 }
 
 .container {
-  width: 80%;
+  width: 100%;
   margin: auto;
-  z-index: 10;
+  /* z-index: 10; */
   margin-top: -518px;
 }
 
 .display-table {
+  margin-top: 20px;
+  z-index: 100;
+  position: relative;
   width: 100%;
   height: 100vh;
-  margin-left: 48px;
 }
 
 .display-table-contents {
@@ -49,24 +51,21 @@
   padding: 0;
   margin-right: 16px;
   margin-top: 80px;
+  text-align: right;
 }
 
 .profile-name {
-  position: relative;
   font-size: 64px;
   font-weight: 800;
 }
 .profile-job {
-  position: relative;
   font-weight: 700;
   font-size: 32px;
   text-align: right;
-  margin-right: 12px;
 }
 
 /* right` */
 .profile-thumb {
-  position: relative;
   height: 480px;
   width: 480px;
   margin-left: 16px;
