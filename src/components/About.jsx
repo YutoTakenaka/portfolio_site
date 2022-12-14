@@ -1,5 +1,5 @@
 import "../styles/About.css";
-import Image from "../images/programmer.svg";
+import Image from "../images/pair.svg";
 import CoverImage from "../images/font.svg";
 
 export const About = () => {
@@ -15,10 +15,9 @@ export const About = () => {
         </div>
         <div className="profile-container">
           <div className="left-profile">
-            <div
-              className="profile-image"
-              style={{ backgroundImage: `url(${Image})` }}
-            ></div>
+            <div className="profile-image">
+              <img src={Image} alt="programmer" height={550} width={450} />
+            </div>
           </div>
           <div className="right-profile">
             <p className="profile">Name: 竹中 優斗(たけなか ゆうと)</p>
