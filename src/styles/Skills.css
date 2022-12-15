@@ -4,7 +4,6 @@
   clear: both;
   width: 80%;
   margin: auto;
-  background-color: azure;
   height: fit-content;
 }
 
@@ -17,14 +16,15 @@
 
 .skills-container {
   display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: space-around;
-  margin: 0 72px;
+  justify-content: space-between;
 }
 
-.skill-item {
-  margin: 16px 72px;
+.chart {
+  width: 50%;
+}
+.react-image {
+  width: 500px;
+  height: 500px;
 }
 
 /* Loading */
