@@ -1,5 +1,4 @@
 import CoverImage from "../images/font.svg";
-import Image from "../images/pair.svg";
 import Basketball from "../images/freak.svg";
 import Food from "../images/breakfast.svg";
 import Camera from "../images/camera.svg";
@@ -13,10 +12,10 @@ export const Favorite = () => {
         <div className="overlay"></div>
         <div className="favorite-container">
           <div className="favorite-header">
-            <p className="favorite-title">Favorite</p>
-            <p className="favorite-message">
-              私の心を動かしてくれるものを紹介します。
-            </p>
+            <div className="favorite-title">
+              <p className="title">Favorite</p>
+              <p className="message">心を揺さぶるものたち</p>
+            </div>
           </div>
           <div className="favorite-contents">
             {/* 1 */}
@@ -63,7 +62,7 @@ export const Favorite = () => {
         </div>
       </div>
       <div
-        className="cover"
+        className="cover-image"
         style={{ backgroundImage: `url(${CoverImage})` }}
       />
     </>

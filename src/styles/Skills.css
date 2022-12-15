@@ -1,12 +1,18 @@
 /* skills component */
 #skills {
-  padding: 128px 0;
+  padding: 600px 0 200px 0;
   clear: both;
+  width: 80%;
+  margin: auto;
+  background-color: azure;
+  height: fit-content;
 }
 
 .heading {
   margin-bottom: 32px;
-  text-align: center;
+  text-align: left;
+  font-size: 72px;
+  font-weight: 700;
 }
 
 .skills-container {
