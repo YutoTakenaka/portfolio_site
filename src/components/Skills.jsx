@@ -46,10 +46,6 @@ export const Skills = () => {
     elements: {
       line: { borderWidth: 3 },
     },
-    plugin: {
-      // legend: { display: false },
-      // datalabels: { display: false },
-    },
     scales: {
       r: {
         min: 0,

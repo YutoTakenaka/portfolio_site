@@ -1,5 +1,5 @@
 import "../styles/Contact.css";
-import { FaTwitter, FaGithub, FaInstagram } from "react-icons/fa";
+// import { FaTwitter, FaGithub, FaInstagram } from "react-icons/fa";
 
 export const Contact = () => {
   return (
