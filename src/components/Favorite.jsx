@@ -1,4 +1,3 @@
-import CoverImage from "../images/font.svg";
 import Basketball from "../images/freak.svg";
 import Food from "../images/breakfast.svg";
 import Camera from "../images/camera.svg";
@@ -61,10 +60,10 @@ export const Favorite = () => {
           </div>
         </div>
       </div>
-      <div
+      {/* <div
         className="cover-image"
         style={{ backgroundImage: `url(${CoverImage})` }}
-      />
+      /> */}
     </>
   );
 };

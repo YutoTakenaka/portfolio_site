@@ -1,19 +1,14 @@
 .favorite {
-  background-color: transparent;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  height: 100vh;
+  height: fit-content;
   width: 100%;
+  padding: 60px 0 100px 0;
 }
 
 .favorite-container {
   width: 80%;
   margin: auto;
-  padding-top: 80px;
 }
 .favorite-title {
-  position: relative;
   font-size: 72px;
   font-weight: 700;
   display: flex;
@@ -31,7 +26,6 @@
 }
 
 .favorite-contents {
-  position: relative;
   display: flex;
   justify-content: space-between;
 }

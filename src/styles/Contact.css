@@ -1,16 +1,38 @@
 /* contact component */
-#contact {
-  padding: 128px 0;
-  clear: both;
+.contact {
+  /* background: azure; */
+  padding-top: 160px;
+  width: 80%;
+  margin: auto;
 }
 
-.contact {
-  background: #30bfba;
+.container {
+  display: flex;
+  justify-content: center;
+  /* gap: 40px; */
+}
+
+.contact-image {
+  /* background-color: aquamarine; */
+  width: 50%;
+  text-align: center;
+}
+
+.contact-image img {
+  transform: scale(7, 7);
+  margin-bottom: -150px;
+}
+
+.contact-title {
+  font-size: 72px;
+  font-weight: 700;
+  margin-top: -200px;
 }
 
 .contact-contents {
-  color: white;
-  text-align: center;
+  width: 50%;
+  /* background-color: aliceblue; */
+  text-align: right;
 }
 
 .description {

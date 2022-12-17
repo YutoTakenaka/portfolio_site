@@ -1,5 +1,4 @@
 import "../styles/Skills.css";
-import Cloud from "../images/cloud.svg";
 import { Radar } from "react-chartjs-2";
 import {
   Chart as ChartJS,
@@ -26,19 +25,19 @@ export const Skills = () => {
   const dataLabels = [
     "React",
     "TypeScript",
-    "JavaScript",
     "Python",
-    "PHP",
-    "Ruby",
+    "Azure",
+    "Management",
+    "Sales",
   ];
   const skillData = {
     labels: dataLabels,
     datasets: [
       {
-        label: "skills(%)",
-        data: [70, 70, 60, 30, 40, 60],
-        backgroundColor: "rgba(42,61,224,0.3)",
-        borderColor: "rgba(42,61,224,1)",
+        label: "%",
+        data: [70, 70, 70, 70, 70, 70],
+        backgroundColor: "rgb(64,116,252,0.3)",
+        borderColor: "#3C71FC",
         borderWidth: 3,
       },
     ],
@@ -66,20 +65,31 @@ export const Skills = () => {
   };
 
   return (
-    <div id="skills">
-      <div className="container">
-        <div className="heading">
-          <p>Skills</p>
+    <>
+      <div className="skills">
+        <div className="skills-header">
+          <div className="skills-title">
+            <p className="skills-main-title">Skills</p>
+            <p className="skills-subtitle">できること</p>
+          </div>
         </div>
         <div className="skills-container">
-          <div className="">
-            <img className="react-image" src={Cloud} alt="" />
+          <div className="skills-left">
+            <p>aaa</p>
+            <p>aaa</p>
+            <p>aaa</p>
+            <p>aaa</p>
+            <p>aaa</p>
           </div>
-          <div className="chart">
+          <div className="ski9lls-right">
             <Radar data={skillData} options={options} />
           </div>
         </div>
       </div>
-    </div>
+      {/* <div
+        className="cover-image"
+        style={{ backgroundImage: `url(${CoverImage})` }}
+      /> */}
+    </>
   );
 };

@@ -1,47 +1,80 @@
 .about {
   width: 80%;
-  margin: auto;
-  margin-bottom: 80px;
+  margin: 40px auto;
+  /* background-color: aliceblue; */
+  height: fit-content;
 }
 
-.title {
-  font-size: 72px;
+.about-header {
+  padding: 40px 0;
+}
+.about-title {
   font-weight: 700;
+  width: fit-content;
 }
 
-.message {
-  font-weight: 700;
-  margin-left: -24px;
-}
-
-.message-title {
-  font-size: 54px;
+.main-title {
+  font-size: 64px;
   padding: 0;
   margin: 0;
 }
-.message-text {
-  margin: 0 0 80px 32px;
-  text-align: start;
+
+.subtitle {
+  font-size: 16px;
+  text-align: center;
+  margin-top: -24px;
 }
-.profile-container {
+
+.about-message {
+  font-weight: 700;
+  text-align: left;
+}
+
+.message-title {
+  width: 105%;
+  font-size: 44px;
+  margin-bottom: 60px;
+}
+
+.message-text {
+  font-size: 24px;
+}
+
+.about-profile {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .left-profile {
-  width: 100%;
-  height: 100%;
+  width: 45%;
 }
-.profile-image {
-  width: 50%;
-  margin-left: 164px;
-  margin-top: 52px;
-  transform: scale(9, 9);
+
+.about-image {
+  width: 12%;
+  margin: auto;
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content: end;
+  transform: scale(8, 8);
 }
+
 .right-profile {
-  width: 50%;
+  width: 55%;
   font-size: 16px;
 }
+
+.profile {
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.profile-prefix {
+  font-size: 8px;
+  margin: 0;
+}
+
 .profile-text {
+  margin: 0;
   letter-spacing: 1px;
 }

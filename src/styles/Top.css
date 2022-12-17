@@ -1,70 +1,45 @@
 /* top component */
-.main-cover {
+.top {
   width: 80%;
-  height: 780px;
-  margin: auto;
-}
-.cover {
-  opacity: 0.8;
-  background-color: transparent;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 400px;
-  width: 100%;
-}
-
-.bg-image {
-  opacity: 0.8;
-  margin-top: 100px;
-  z-index: 1;
-  width: 416px;
-  height: 612px;
-  transform: scale(0.7, 0.7);
-}
-
-.container {
-  width: 100%;
-  margin: auto;
-  /* z-index: 10; */
-  margin-top: -518px;
-}
-
-.display-table {
-  margin-top: 20px;
-  z-index: 100;
-  position: relative;
-  width: 100%;
-  height: 100vh;
-}
-
-.display-table-contents {
-  width: 100%;
+  margin: 80px auto;
+  /* background-color: aliceblue; */
+  padding: 100px 0;
   display: flex;
-  justify-content: space-between;
-  text-align: center;
-  vertical-align: middle;
+  gap: 20px;
 }
-
-/* left */
 .left-container {
-  width: 100%;
-  padding: 0;
-  margin-right: 16px;
-  margin-top: 80px;
+  width: 50%;
+  /* background-color: azure; */
   text-align: right;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .profile-name {
   font-size: 64px;
   font-weight: 800;
+  margin: 0;
 }
 .profile-job {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 24px;
   text-align: right;
+  margin: 0;
 }
 
-/* right` */
+.right-container {
+  width: 50%;
+  /* background-color: beige; */
+  display: flex;
+  justify-content: end;
+}
+
+.top-image {
+  width: 90%;
+  height: 90%;
+}
+
 .profile-thumb {
   height: 480px;
   width: 480px;
