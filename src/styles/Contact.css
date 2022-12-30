@@ -1,58 +1,54 @@
-/* contact component */
 .contact {
-  /* background: azure; */
-  padding-top: 160px;
+  padding: 80px 0;
   width: 80%;
-  margin: auto;
+  margin: 80px auto;
 }
 
-.container {
+/* title */
+.contact-header {
   display: flex;
-  justify-content: center;
-  /* gap: 40px; */
+  justify-content: left;
+}
+.contact-title {
+  width: fit-content;
+  text-align: center;
+  font-weight: 700;
+}
+.contact-main-title {
+  font-size: 64px;
+  margin: 0;
+}
+.contact-subtitle {
+  font-size: 16px;
+  margin-top: -24px;
+}
+
+/* container */
+.contact-container {
+  margin-top: 80px;
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+}
+.contact-left {
+  width: 50%;
+  letter-spacing: 1px;
 }
 
 .contact-image {
-  /* background-color: aquamarine; */
-  width: 50%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
 }
 
 .contact-image img {
-  transform: scale(7, 7);
-  margin-bottom: -150px;
+  transform: scale(8, 8);
 }
 
-.contact-title {
-  font-size: 72px;
-  font-weight: 700;
-  margin-top: -200px;
-}
-
-.contact-contents {
+.contact-right {
   width: 50%;
-  /* background-color: aliceblue; */
-  text-align: right;
 }
 
-.description {
-  font-size: 16px;
-}
-
-.btn {
-  font-family: "Space Mono", Arial, serif;
-  font-size: 16px;
-  border: none;
-  border-radius: 30px;
-  padding: 16px 64px;
-  text-decoration: none;
-}
-
-#contact .btn {
-  height: 54px;
-  background-color: #fff;
-  color: #30bfba;
-}
 /* icon */
 .social-icons {
   padding: 0;

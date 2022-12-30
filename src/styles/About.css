@@ -1,7 +1,6 @@
 .about {
   width: 80%;
   margin: 40px auto;
-  /* background-color: aliceblue; */
   height: fit-content;
 }
 
@@ -53,7 +52,6 @@
 .about-image {
   width: 12%;
   margin: auto;
-  /* background-color: antiquewhite; */
   display: flex;
   justify-content: end;
   transform: scale(8, 8);
