@@ -14,11 +14,11 @@ export const Contact = () => {
       <div className="contact-container">
         <div className="contact-left">
           <div>
-            <p>竹中優斗のWebサイトにご訪問いただき、ありがとうございます。</p>
+            <p>ご訪問いただきありがとうございます。</p>
+            <p>ご依頼やご相談などお気軽にご連絡ください。</p>
             <p>
-              お仕事のご依頼やご相談等ございましたらお気軽にご連絡ください。
+              <span>*</span>は必須入力項目となりますのでご注意くださいませ。
             </p>
-            <p>また、*は必須入力項目となりますのでご注意くださいませ。</p>
           </div>
           <div className="contact-image">
             <img src={Image} alt="" />

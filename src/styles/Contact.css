@@ -35,6 +35,10 @@
   letter-spacing: 1px;
 }
 
+.contact-left span {
+  color: #ff0000;
+}
+
 .contact-image {
   display: flex;
   justify-content: center;
