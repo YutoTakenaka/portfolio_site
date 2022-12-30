@@ -1,48 +1,45 @@
 /* skills component */
-#skills {
-  padding: 128px 0;
-  clear: both;
+.skills {
+  padding: 80px 0;
+  width: 80%;
+  margin: 80px auto;
+  height: fit-content;
 }
 
-.heading {
+.skills-header {
   margin-bottom: 32px;
+  font-size: 64px;
+  font-weight: 700;
+  display: flex;
+  justify-content: start;
+}
+
+.skills-title {
   text-align: center;
+  width: fit-content;
+}
+
+.skills-main-title {
+  margin: 0;
+}
+.skills-subtitle {
+  font-size: 16px;
+  margin-top: -24px;
 }
 
 .skills-container {
   display: flex;
+  justify-content: space-between;
+  gap: 20px;
   flex-wrap: wrap;
+}
+
+.circle-label {
+  font-size: 24px;
   text-align: center;
-  justify-content: space-around;
-  margin: 0 72px;
+  margin: 0;
 }
-
-.skill-item {
-  margin: 16px 72px;
-}
-
-/* Loading */
-.loading {
-  width: 40px;
-  height: 40px;
-  margin: auto;
-  -webkit-animation: spin 1.5s linear infinite;
-  -moz-animation: spin 1.5s linear infinite;
-  animation: spin 1.5s linear infinite;
-}
-@-moz-keyframes spin {
-  100% {
-    -moz-transform: rotate(360deg);
-  }
-}
-@-webkit-keyframes spin {
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
-}
-@keyframes spin {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+.circle {
+  margin: 0 40px;
+  transform: scale(0.7, 0.7);
 }

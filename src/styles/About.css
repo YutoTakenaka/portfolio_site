@@ -1,33 +1,78 @@
 .about {
-  width: 70%;
-  margin: auto;
+  width: 80%;
+  margin: 40px auto;
+  height: fit-content;
 }
 
-.title {
-  font-size: 72px;
+.about-header {
+  padding: 40px 0;
+}
+.about-title {
   font-weight: 700;
+  width: fit-content;
 }
 
-.message {
-  font-weight: 700;
-}
-
-.message-title {
-  font-size: 54px;
+.main-title {
+  font-size: 64px;
   padding: 0;
   margin: 0;
 }
 
-.profile-container {
+.subtitle {
+  font-size: 16px;
+  text-align: center;
+  margin-top: -24px;
+}
+
+.about-message {
+  font-weight: 700;
+  text-align: left;
+}
+
+.message-title {
+  width: 105%;
+  font-size: 44px;
+  margin-bottom: 60px;
+}
+
+.message-text {
+  font-size: 24px;
+}
+
+.about-profile {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
-.left-container {
-  width: 50%;
+.left-profile {
+  width: 45%;
 }
 
-.right-container {
-  width: 50%;
+.about-image {
+  width: 12%;
+  margin: auto;
+  display: flex;
+  justify-content: end;
+  transform: scale(8, 8);
+}
+
+.right-profile {
+  width: 55%;
   font-size: 16px;
+}
+
+.profile {
+  margin-top: 0;
+  font-weight: 700;
+}
+
+.profile-prefix {
+  font-size: 8px;
+  margin: 0;
+}
+
+.profile-text {
+  margin: 0;
+  letter-spacing: 1px;
 }

@@ -1,27 +1,48 @@
 import "../styles/About.css";
+import Image from "../images/man.svg";
 
 export const About = () => {
   return (
     <div className="about">
-      <p className="title">About</p>
-      <div className="message">
-        <p className="message-title">「ITの力で人々に人生に追い風を」</p>
-        <p className="message-text">このような想いを掲げて仕事をしています。</p>
-      </div>
-      <div className="profile-container">
-        <div className="left-container">
-          <p>photo</p>
+      <div className="about-header">
+        <div className="about-title">
+          <p className="main-title">About</p>
+          <p className="subtitle">-私に関するあれこれ-</p>
         </div>
-        <div className="right-container">
-          <p className="profile">Name: 竹中 優斗(たけなか ゆうと)</p>
-          <p className="profile">D.O.B: 1999年5月8日</p>
-          <p className="profile">From: 青森県八戸市</p>
+      </div>
+
+      <div className="about-message">
+        <p className="message-title">
+          花には水を。人には心を。感謝いっぱいの日々を。
+        </p>
+      </div>
+      <div className="about-profile">
+        <div className="left-profile">
+          <div className="about-image">
+            <img src={Image} alt="" />
+          </div>
+        </div>
+        <div className="right-profile">
+          <p className="profile">-Profile-</p>
+          <p className="profile-prefix">Name</p>
+          <p className="profile">竹中 優斗(たけなか ゆうと)</p>
+          <p className="profile-prefix">Day of Birth</p>
+          <p className="profile">1999年5月8日</p>
+          <p className="profile-prefix">From</p>
+          <p className="profile">青森県八戸市</p>
+          <p className="profile-prefix">Favorite</p>
           <p className="profile">
-            Favorite: バスケットボール/ラーメン巡り/一眼レフカメラ
+            バスケットボール/美味しい食事とお酒/一眼レフカメラ
           </p>
           <hr />
           <p className="profile-text">
-            千葉大学法政経学部法政経学科を卒業し、新卒でIT企業に就職しました。現在はReact,TypeScriptなどを用いたモダンなフロントエンド開発をしています。私に関わったことで、私が携わったアプリを使うことで、その人の人生にいい影響を与えられると嬉しいです。
+            足を運んでいただきありがとうございます。
+          </p>
+          <p className="profile-text">
+            青森県産日本酒育ちの竹中優斗です。高校まで、地元青森で訛りまくりの18年を過ごし、大学進学を機に上京してきました。千葉大学法政経学部法政経学科を卒業後、新卒でITベンチャー企業に就職しました。React,TypeScriptなどを用いたモダンなフロントエンド開発をしているWebエンジニアとして貢献しています。
+          </p>
+          <p className="profile-text">
+            私に関わったことで、もしくは私が開発に携わったアプリを使うことで、誰かの人生にいい影響を与えられると嬉しいです。亡き祖母が残した言葉「花には水を。人には心を。感謝いっぱいの日々を。」は私が大切にしている座右の銘です。感謝の気持を忘れないことで、人として美しく咲き誇りたい。その想いを胸に、人生を歩んでます。
           </p>
           <p className="profile-text"></p>
         </div>
