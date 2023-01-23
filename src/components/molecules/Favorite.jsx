@@ -1,7 +1,7 @@
-import Basketball from "../images/freak.svg";
-import Food from "../images/breakfast.svg";
-import Camera from "../images/camera.svg";
-import "../styles/Favorite.css";
+import Basketball from "../../images/freak.svg";
+import Food from "../../images/breakfast.svg";
+import Camera from "../../images/camera.svg";
+import "../../styles/Favorite.css";
 
 export const Favorite = () => {
   return (

@@ -1,5 +1,5 @@
-import "../styles/Top.css";
-import PullRequest from "../images/programming.svg";
+import "../../styles/Top.css";
+import PullRequest from "../../images/programming.svg";
 
 export const Top = () => {
   return (

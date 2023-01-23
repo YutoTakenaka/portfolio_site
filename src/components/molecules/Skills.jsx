@@ -1,4 +1,4 @@
-import "../styles/Skills.css";
+import "../../styles/Skills.css";
 import Circle from "react-circle";
 
 export const Skills = () => {
