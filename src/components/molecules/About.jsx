@@ -1,5 +1,5 @@
-import "../styles/About.css";
-import Image from "../images/man.svg";
+import "../../styles/About.css";
+import Image from "../../images/man.svg";
 
 export const About = () => {
   return (

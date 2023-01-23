@@ -1,6 +1,6 @@
-import "../styles/Contact.css";
+import "../../styles/Contact.css";
 import { ContactForm } from "./ContactForm";
-import Image from "../images/email.svg";
+import Image from "../../images/email.svg";
 
 export const Contact = () => {
   return (
