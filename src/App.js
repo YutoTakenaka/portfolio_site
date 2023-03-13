@@ -4,6 +4,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Header } from "./components/molecules/Header";
 import { NotFound } from "./components/molecules/NotFound";
 import { TopPage } from "./components/pages/TopPage";
+import { ContactPage } from "./components/pages/ContactPage";
+import { FavoritePage } from "./components/pages/FavoritePage";
+import { AboutPage } from "./components/pages/AboutPage";
+import { SkillsPage } from "./components/pages/SkillsPage";
 
 function App() {
   return (
@@ -13,10 +17,10 @@ function App() {
         <Routes>
           <Route exact path={"/"} element={<TopPage />} />
           <Route exact path={"/top"} element={<TopPage />} />
-          <Route exact path={"/about"} element={<TopPage />} />
-          <Route exact path={"/favorite"} element={<TopPage />} />
-          <Route exact path={"/skill"} element={<TopPage />} />
-          <Route exact path={"/contact"} element={<TopPage />} />
+          <Route exact path={"/about"} element={<AboutPage />} />
+          <Route exact path={"/favorite"} element={<FavoritePage />} />
+          <Route exact path={"/skill"} element={<SkillsPage />} />
+          <Route exact path={"/contact"} element={<ContactPage />} />
           <Route exact path={"/*"} element={<NotFound />} />
         </Routes>
       </BrowserRouter>
