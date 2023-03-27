@@ -6,9 +6,9 @@ export const Skills = () => {
     { skill: "React", percentage: 75 },
     { skill: "TypeScript", percentage: 70 },
     { skill: "Python", percentage: 55 },
-    { skill: "PHP", percentage: 50 },
-    { skill: "Management", percentage: 30 },
-    { skill: "AI", percentage: 30 },
+    { skill: "PHP", percentage: 45 },
+    { skill: "Management", percentage: 10 },
+    { skill: "AI", percentage: 10 },
   ];
 
   return (

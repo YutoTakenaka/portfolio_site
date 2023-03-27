@@ -41,7 +41,7 @@
 
 .contact-image {
   display: flex;
-  justify-content: center;
+  gap: 40px;
   margin-top: 200px;
 }
 
@@ -54,23 +54,16 @@
 }
 
 /* icon */
-.social-icons {
-  padding: 0;
+.sns {
+  color: #4d4d4d;
+  transition-duration: 300ms;
 }
-
-.social-icons li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: inline-block;
+.twitter:hover {
+  color: #3c71fc;
 }
-
-.social-icons li a {
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
+.instagram:hover {
+  color: #fe21fe;
 }
-
-.icon-link {
-  position: relative;
+.github:hover {
+  color: #c3c3c3;
 }
