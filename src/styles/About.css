@@ -11,6 +11,10 @@
   font-weight: 700;
   width: fit-content;
 }
+.credo {
+  margin-top: 180px;
+  margin-bottom: 180px;
+}
 
 .main-title {
   font-size: 64px;
@@ -75,4 +79,26 @@
 .profile-text {
   margin: 0;
   letter-spacing: 1px;
+}
+
+.credo-content {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.credo-left {
+  list-style: none;
+  padding: 0;
+  width: 50%;
+  letter-spacing: 1px;
+}
+.credo-left li {
+  margin: 10px 0;
+}
+.credo-right {
+  margin-top: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  width: 50%;
 }
