@@ -1,0 +1,18 @@
+.slick {
+  margin: 0 40px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.slick img {
+  transform: scale(1.2, 1.2);
+  margin: 64px;
+}
+.slick-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+}
