@@ -1,6 +1,10 @@
 import "../../styles/Contact.css";
 import { ContactForm } from "./ContactForm";
-import Image from "../../images/email.svg";
+import {
+  AiFillTwitterCircle,
+  AiOutlineInstagram,
+  AiOutlineGithub,
+} from "react-icons/ai";
 
 export const Contact = () => {
   return (
@@ -17,11 +21,22 @@ export const Contact = () => {
             <p>ご訪問いただきありがとうございます。</p>
             <p>ご依頼やご相談などお気軽にご連絡ください。</p>
             <p>
-              <span>*</span>は必須入力項目となりますのでご注意くださいませ。
+              <span>*</span>は必須入力項目です。
             </p>
           </div>
           <div className="contact-image">
-            <img src={Image} alt="" />
+            <a href="https://twitter.com/eutu_ty" className="sns twitter">
+              <AiFillTwitterCircle size={80} />
+            </a>
+            <a
+              href="https://www.instagram.com/eutu_ty/"
+              className="sns instagram"
+            >
+              <AiOutlineInstagram size={80} />
+            </a>
+            <a href="https://github.com/YutoTakenaka" className="sns github">
+              <AiOutlineGithub size={80} />
+            </a>
           </div>
         </div>
 

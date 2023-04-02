@@ -70,3 +70,35 @@
   height: 400px;
   width: 100%;
 }
+
+.photo-space {
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 180px;
+}
+
+.photo-header {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: fit-content;
+}
+.photo-title {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.photo-message {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  margin-top: -80px;
+  font-weight: 700;
+}
+
+.photos {
+  /* width: 320px; */
+  height: 320px;
+  margin: 40px;
+}
