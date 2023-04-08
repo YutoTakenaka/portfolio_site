@@ -21,7 +21,7 @@ function App() {
           <Route exact path={"/favorite"} element={<FavoritePage />} />
           <Route exact path={"/skill"} element={<SkillsPage />} />
           <Route exact path={"/contact"} element={<ContactPage />} />
-          <Route exact path={"/*"} element={<NotFound />} />
+          <Route path={"/*"} element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>
