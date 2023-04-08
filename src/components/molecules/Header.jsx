@@ -1,6 +1,6 @@
 import "../../styles/Header.css";
 import Logo from "../../images/header-logo.png";
-
+import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <div className="header">

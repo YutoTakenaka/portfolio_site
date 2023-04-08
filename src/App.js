@@ -15,12 +15,12 @@ function App() {
       <Header />
       <BrowserRouter>
         <Routes>
-          <Route exact path={"/"} element={<TopPage />} />
-          <Route exact path={"/top"} element={<TopPage />} />
-          <Route exact path={"/about"} element={<AboutPage />} />
-          <Route exact path={"/favorite"} element={<FavoritePage />} />
-          <Route exact path={"/skill"} element={<SkillsPage />} />
-          <Route exact path={"/contact"} element={<ContactPage />} />
+          <Route index element={<TopPage />} />
+          <Route path={"/top"} element={<TopPage />} />
+          <Route path={"/about"} element={<AboutPage />} />
+          <Route path={"/favorite"} element={<FavoritePage />} />
+          <Route path={"/skill"} element={<SkillsPage />} />
+          <Route path={"/contact"} element={<ContactPage />} />
           <Route path={"/*"} element={<NotFound />} />
         </Routes>
       </BrowserRouter>

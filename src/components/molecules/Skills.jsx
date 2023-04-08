@@ -21,7 +21,7 @@ export const Skills = () => {
       </div>
       <div className="skills-container">
         {skillList.map((data) => (
-          <div className="circle">
+          <div className="circle" key={data.skill}>
             <p className="circle-label">{data.skill}</p>
             <Circle
               className="react-circle"
