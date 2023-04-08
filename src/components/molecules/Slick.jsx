@@ -14,7 +14,7 @@ export const Slick = () => {
   return (
     <div className="slick-container">
       {images.map((image) => (
-        <div>
+        <div key={image}>
           <div className="slick">
             <img src={image} alt="" className="photos" />
           </div>
