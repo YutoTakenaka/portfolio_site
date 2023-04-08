@@ -13,10 +13,9 @@ function App() {
   return (
     <>
       <Header />
-      <BrowserRouter>
+      <BrowserRouter basename="/bejewelled-zuccutto-01a613">
         <Routes>
           <Route index element={<TopPage />} />
-          <Route path={"/top"} element={<TopPage />} />
           <Route path={"/about"} element={<AboutPage />} />
           <Route path={"/favorite"} element={<FavoritePage />} />
           <Route path={"/skill"} element={<SkillsPage />} />
