@@ -25,16 +25,28 @@ export const Contact = () => {
             </p>
           </div>
           <div className="contact-image">
-            <a href="https://twitter.com/eutu_ty" className="sns twitter">
+            <a
+              href="https://twitter.com"
+              target="blank"
+              rel="noopener"
+              className="sns twitter"
+            >
               <AiFillTwitterCircle size={80} />
             </a>
             <a
               href="https://www.instagram.com/eutu_ty/"
+              target="blank"
+              rel="noopener"
               className="sns instagram"
             >
               <AiOutlineInstagram size={80} />
             </a>
-            <a href="https://github.com/YutoTakenaka" className="sns github">
+            <a
+              href="https://github.com/YutoTakenaka"
+              target="blank"
+              rel="noopener"
+              className="sns github"
+            >
               <AiOutlineGithub size={80} />
             </a>
           </div>
