@@ -7,7 +7,7 @@ export const FavoritePage = () => {
       <Favorite />
       <div className="photo-space">
         <div className="photo-header">
-          <p className="photo-title">Photograph</p>
+          <p className="photo-title">Photographs</p>
           <p className="photo-message">-グッときた写真-</p>
         </div>
         <Slick />

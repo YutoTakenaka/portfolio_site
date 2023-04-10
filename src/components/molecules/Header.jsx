@@ -12,7 +12,7 @@ export const Header = () => {
       <div className="menu">
         <a href="/">Top</a>
         <a href="/about">About</a>
-        <a href="/favorite">Favorite</a>
+        <a href="/favorite">Favorites</a>
         <a href="/skill">Skills</a>
         <a href="/contact">Contact</a>
       </div>
